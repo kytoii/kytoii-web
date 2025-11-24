@@ -1,0 +1,118 @@
+* { 
+
+  padding: 0px;
+  margin: 0px;
+
+  text-decoration: none;
+
+  color: #d4d4d4;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+  
+  background-color: #2a2a2a;
+
+}
+
+#kytoii {
+
+  text-align: center;
+
+  font-family: "Google Sans Code", monospace;
+  font-weight: 800;
+  font-style: normal; 
+  font-size: 40px;
+
+}
+
+.scroll {
+  color: #d4d4d4;
+}
+
+
+/* Header */
+header {
+
+  background-color: #111111;
+  color: #d4d4d4;
+
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+/* ------ */
+
+
+/* main */
+main {
+
+  height: 100vh;
+  min-height: 1200px;
+
+  background-color: #111111;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+
+}
+/* ---- */
+
+
+/* Blocks */
+.block {
+
+  background-color: #1d1d1d;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+
+  /*height: 200px;*/
+  border-radius: 25px;
+  margin-bottom: 20%;
+
+  font-family: "Google Sans Code", monospace;
+  font-weight: 200;
+  font-style: normal;
+
+  border: 1px solid;
+  border-color: #2a2a2a;
+
+}
+
+.block h1 {
+
+  margin-bottom: 20px;
+
+}
+/* ------ */
+
+
+/* Footer */
+footer {
+
+  background-color: #2a2a2a;
+  min-height: 20vh;
+
+  /* Configuração provisoria */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* ------ */
